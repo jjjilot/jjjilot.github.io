@@ -3,36 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Josh Jilot's Portfolio</title>
+    <title>Josh Jilot - Personal Website</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 20px;
-            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
         }
         h1 {
-            font-size: 24px;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
         }
         h2 {
-            font-size: 20px;
             margin-top: 20px;
-            margin-bottom: 10px;
-        }
-        p {
-            margin-bottom: 10px;
         }
         ul {
             list-style-type: none;
             padding-left: 0;
         }
         li {
-            margin-bottom: 5px;
+            margin-bottom: 10px;
         }
         a {
+            color: #007bff;
             text-decoration: none;
-            color: blue;
         }
         a:hover {
             text-decoration: underline;
@@ -42,21 +40,24 @@
 <body>
     <header>
         <h1>Josh Jilot</h1>
-        <p>Email: <a href="mailto:joshjilot@gmail.com">joshjilot@gmail.com</a></p>
-        <p>Phone: (503) 784-8125</p>
-        <p>Github: <a href="https://github.com/jjjilot">https://github.com/jjjilot</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/josh-jilot">https://www.linkedin.com/in/josh-jilot</a></p>
+        <p>joshjilot@gmail.com | (503) 784-8125</p>
+        <p>
+            <a href="https://github.com/jjjilot">Github</a> |
+            <a href="https://www.linkedin.com/in/josh-jilot">LinkedIn</a>
+        </p>
     </header>
 
     <section id="education">
         <h2>Education</h2>
-        <p>Bachelor of Science – Computer Science</p>
-        <p>University of Oregon – Eugene, OR USA</p>
-        <p>CGPA: 3.95</p>
-        <p>September 2021 – Current</p>
+        <ul>
+            <li>Bachelors of Science – Computer Science</li>
+            <li>University of Oregon – Eugene, OR USA</li>
+            <li>CGPA: 3.95</li>
+            <li>September 2021 – Current</li>
+        </ul>
     </section>
 
-    <section id="courses">
+    <section id="relevant-courses">
         <h2>Relevant Courses</h2>
         <ul>
             <li>CS 211 OOP & Python</li>
@@ -70,20 +71,34 @@
 
     <section id="projects">
         <h2>Projects</h2>
-        <h3>Class Page Webscraper</h3>
-        <p>Worked with a team to research webscraping techniques and libraries and design a webscraper using Python and HTML. Required communication with and coordination of team members to create program that utilized HTML webscraping and parsing to send a text to a user’s phone under specified conditions.</p>
-        <h3>Food Macro Tracker (ongoing)</h3>
-        <p>Coordinated with group to create an iOS app that utilizes a phone’s camera to identify food and relay appropriate nutritional information. Required programming in Swift and HTML and use of Bite AI food intelligence API. Larger project involved many hours planning, organizing, and working as a cohesive unit while learning new programming languages and techniques.</p>
+        <ul>
+            <li>
+                <strong>Class Page Webscraper:</strong>
+                Worked with a team to research webscraping techniques and libraries and design a webscraper using Python and HTML. Required communication with and coordination of team members to create program that utilized HTML webscraping and parsing to send a text to a user’s phone under specified conditions.
+            </li>
+            <li>
+                <strong>Food Macro Tracker (ongoing):</strong>
+                Coordinated with group to create an iOS app that utilizes a phone’s camera to identify food and relay appropriate nutritional information. Required programming in Swift and HTML and use of Bite AI food intelligence API. Larger project involved many hours planning, organizing, and working as a cohesive unit while learning new programming languages and techniques.
+            </li>
+        </ul>
     </section>
 
     <section id="work-experience">
         <h2>Work Experience</h2>
-        <h3>Student Mentor</h3>
-        <p>September 2022 – June 2023</p>
-        <p>Volunteer position focused on working with students struggling to grasp basics of computer science. Involved interacting with and helping students under great stress in a manner that enabled them to become more comfortable and confident in their work. Required patience, instructional ability, and communication skills.</p>
-        <h3>University of Oregon Bookstore – Sales Associate</h3>
-        <p>July 2023 – Present</p>
-        <p>Fast-moving position in dynamic work environment. Employees must meet needs of many different customers while dividing up and balancing daily tasks among a team of workers. During high-density hours of gameday and holidays employees must navigate greatly increased workload while greater number of distractions and customer interactions surround them. Requires solid teamwork and management of multiple tasks.</p>
+        <ul>
+            <li>
+                <strong>Student Mentor</strong>
+                <br>
+                September 2022 – June 2023
+                <p>Volunteer position focused on working with students struggling to grasp basics of computer science. Involved interacting with and helping students under great stress in a manner that enabled them to become more comfortable and confident in their work. Required patience, instructional ability, and communication skills.</p>
+            </li>
+            <li>
+                <strong>University of Oregon Bookstore – Sales Associate</strong>
+                <br>
+                July 2023 – Present
+                <p>Fast-moving position in dynamic work environment. Employees must meet needs of many different customers while dividing up and balancing daily tasks among a team of workers. During high-density hours of gameday and holidays employees must navigate greatly increased workload while greater number of distractions and customer interactions surround them. Requires solid teamwork and management of multiple tasks.</p>
+            </li>
+        </ul>
     </section>
 </body>
 </html>
